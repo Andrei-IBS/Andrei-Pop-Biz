@@ -29,11 +29,6 @@ h3, h4, h5, h6 {
 
 p {
   font-family: "Roboto", sans-serif;
-  width: 60%;
-max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  min-width: 100px;
   line-height: 1.4;
 }
 
@@ -47,11 +42,14 @@ a {
 .contact {
   background-color: rgba(201, 165, 91, 0.7);
   padding: 20px 80px 40px 80px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .contact a {
   text-decoration: none;
   color: #231f20;
+  font-weight: 600;
 }
 
 .contact a:hover {
@@ -69,7 +67,6 @@ a {
   text-decoration: none;
   color: #231f20;
   text-align: center;
-  margin: 20px auto;
 }
 
 .footer a:hover {
@@ -83,7 +80,7 @@ a {
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
-  filter: blur(2px) ;
+  filter: blur(2px);
   box-shadow: 1px 5px 10px #231f20;
   height: 800px;
   z-index: 1;
@@ -94,7 +91,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   z-index: 2;
   width: 80%;
   padding: 20px;
@@ -122,7 +119,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-color: #e4e4e4;
+  background-color: #f9f9f9;
   background-blend-mode: screen;
 }
 
@@ -181,7 +178,7 @@ a {
 }
 
 .service-icons {
-  height: 8rem;
+  height: 12rem;
   padding: 2.5rem 0 0.8rem 0;
   fill: #0755b4;
 }
@@ -192,21 +189,39 @@ a {
 }
 
 .servicii {
-  background: rgba(255, 255, 255, 0.5);
-  box-shadow: 1px 5px 10px #231f20;
-  padding: 40px 80px;
-  z-index: 9998;
+  width: 50%;
+  margin: auto;
 }
 
-.servicii-sep {
-  width: 20%;
-  min-width: 30px;
-  opacity: 0.5;
-  margin: 10px auto;
+.branding-consultancy, .web-dev {
+  padding-top: 40px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.graphic-design {
+  text-align: right;
+  padding: 120px 0;
+  vertical-align: top;
+}
+
+.graphic-design-icon {
+  float: right;
+  margin-left: 40px;
+  margin-top: -40px;
+}
+
+.branding-icon, .web-dev-icon {
+  float: left;
+  margin-right: 40px;
+  margin-top: -40px;
+}
+
+.web-dev {
+  margin-bottom: 100px;
 }
 
 /****************** ID Selectors *********************/
-
 #visual-identity {
   width: 95%;
   max-width: 900px;
