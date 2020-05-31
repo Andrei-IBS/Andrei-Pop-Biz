@@ -1,0 +1,214 @@
+/* useful color codes:
+brand blue: #0755b4
+brand gold: #c9a55b
+brand grey: #e4e4e4
+Paragraph colors: #231f20
+*/
+/****************** Tag Selectors ***********************/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  width: 60%;
+max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  min-width: 100px;
+  line-height: 1.4;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+/****************** Class Selectors *********************/
+.contact {
+  background-color: rgba(201, 165, 91, 0.7);
+  padding: 20px 80px 40px 80px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #231f20;
+}
+
+.contact a:hover {
+  color: #0755b4;
+  transition-duration: 0.25s;
+}
+
+.footer {
+  background-color: #c19843;
+  padding: 10px 80px 10px 80px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #231f20;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.footer a:hover {
+  color: #0755b4;
+  transition-duration: 0.25s;
+}
+
+.hero {
+  background-image: url(Images/Andrei-Pop---hero-background-picture.jpg), linear-gradient(to bottom, white, #0755b4ab);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  filter: blur(2px) ;
+  box-shadow: 1px 5px 10px #231f20;
+  height: 800px;
+  z-index: 1;
+}
+
+.hero-content {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-image {
+  width: 300px;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px black;
+  margin: 0 auto;
+  display: block;
+}
+
+.hero-headers {
+  text-align: center;
+}
+
+.middle-container {
+  text-align: center;
+  background-image: url(Images/Logos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #e4e4e4;
+  background-blend-mode: screen;
+}
+
+.navbar {
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  background: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+  box-shadow: 1px 5px 10px #231f20;
+}
+
+.nav-logo {
+  display: block;
+  float: left;
+  padding: 10px 20px;
+  max-width: 250px;
+  min-width: 100px;
+}
+
+.navbar ul {
+  padding-right: 20px;
+}
+
+.navbar li {
+  display: block;
+  float: right;
+  text-align: center;
+  font-size: 17px;
+  padding: 15px 20px;
+}
+
+.navbar li:hover {
+  transform: scale(1.05);
+  transition-duration: 0.25s;
+}
+
+.navbar li a:hover {
+  color: #0755b4;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #231f20;
+}
+
+.navbar a:visited {
+  color: #231f20;
+}
+
+.profile {
+  padding: 40px 100px 0 100px;
+  margin: 0;
+}
+
+.service-icons {
+  height: 8rem;
+  padding: 2.5rem 0 0.8rem 0;
+  fill: #0755b4;
+}
+
+.service-icons:hover {
+  fill: #231f20;
+  transition-duration: 0.25s;
+}
+
+.servicii {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 5px 10px #231f20;
+  padding: 40px 80px;
+  z-index: 9998;
+}
+
+.servicii-sep {
+  width: 20%;
+  min-width: 30px;
+  opacity: 0.5;
+  margin: 10px auto;
+}
+
+/****************** ID Selectors *********************/
+
+#visual-identity {
+  width: 95%;
+  max-width: 900px;
+  margin-right: 2.7%
+}
